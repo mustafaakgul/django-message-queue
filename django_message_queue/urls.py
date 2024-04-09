@@ -19,4 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include('django_email_celery.urls'))
+    path('redis/', redis, name='redis'),
 ]

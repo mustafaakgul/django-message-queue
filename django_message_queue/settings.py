@@ -138,3 +138,11 @@ EMAIL_HOST_USER = 'YOUR_EMAIL_ADDRESS'
 EMAIL_HOST_PASSWORD = 'YOUR_EMAIL_PASSWORD'
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
+
+## Cache
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.redis.RedisCache',
+        'LOCATION': 'redis://127.0.0.1:6379',
+    }
+}

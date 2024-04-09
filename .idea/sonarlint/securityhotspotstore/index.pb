@@ -60,3 +60,13 @@ C
 -.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
 S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+L
+django_email_celery/views.py,1/9/19aba3354e2f9fa7f4613636c00e5587699f354b
+P
+ django_message_queue/settings.py,6/c/6cb508b6b706f3647065b6d0ad68362627b6bb40
+L
+django_message_queue/urls.py,7/0/70f9989576c19ef9e9b07c04aaa18082766fe7c0
+D
+templates/redis.html,a/9/a9d5d3f5f2586b21b19b1591b8fcb1e7ba3f24be
+@
+requirements.txt,1/9/19359a61ae2446b51b549167b014da2fcf265768
